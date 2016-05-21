@@ -1,5 +1,5 @@
 //
-//  MergeSort.h
+//  MergeSortParallelism.h
 //  Sorting
 //
 //  Created by Ali, Sarmad on 5/20/16.
