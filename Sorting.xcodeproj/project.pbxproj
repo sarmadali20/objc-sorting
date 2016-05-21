@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47768DBE1CF0EEF800079432 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 47768DBD1CF0EEF800079432 /* QuickSort.m */; };
 		47A8FF9C1CEFE8640013DD4A /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A8FF9B1CEFE8640013DD4A /* MergeSort.m */; };
 		47A8FF9F1CF0256A0013DD4A /* MergeSortParallelism.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A8FF9D1CF0256A0013DD4A /* MergeSortParallelism.m */; };
 		47DF48931CE6AC0F001E13EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF48921CE6AC0F001E13EE /* main.m */; };
@@ -32,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		47768DBC1CF0EEF800079432 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		47768DBD1CF0EEF800079432 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		47A8FF9A1CEFE8640013DD4A /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		47A8FF9B1CEFE8640013DD4A /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		47A8FF9D1CF0256A0013DD4A /* MergeSortParallelism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortParallelism.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				47DF48921CE6AC0F001E13EE /* main.m */,
+				47768DBC1CF0EEF800079432 /* QuickSort.h */,
+				47768DBD1CF0EEF800079432 /* QuickSort.m */,
 				47DF48991CE6AC5B001E13EE /* BucketSort.h */,
 				47DF489A1CE6AC5B001E13EE /* BucketSort.m */,
 				47E8C4401CE7E5110041ACCC /* BubbleSort.h */,
@@ -170,6 +175,7 @@
 				47DF48931CE6AC0F001E13EE /* main.m in Sources */,
 				47E8C4481CE90A650041ACCC /* SelectionSort.m in Sources */,
 				47E8C4451CE9089C0041ACCC /* Sort.m in Sources */,
+				47768DBE1CF0EEF800079432 /* QuickSort.m in Sources */,
 				47EC14521CE975C000E19C83 /* InsertionSort.m in Sources */,
 				47DF489B1CE6AC5B001E13EE /* BucketSort.m in Sources */,
 				47DF48A11CE70148001E13EE /* NSMutableArray+Additions.m in Sources */,

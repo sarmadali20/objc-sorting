@@ -23,9 +23,9 @@
 
     __block NSMutableArray<NSNumber*>* right = [[self.sortedArray subarrayWithRange:NSMakeRange(mid+1, mid+1)] mutableCopy];
 
-    __block MergeSortParallelism * leftSorter = [[MergeSortParallelism alloc] init:left];
+    __block MergeSortParallelism * leftSorter = [[MergeSortParallelism alloc] initWithArray:left];
 
-    __block MergeSortParallelism * rightSorter = [[MergeSortParallelism alloc] init:right];
+    __block MergeSortParallelism * rightSorter = [[MergeSortParallelism alloc] initWithArray:right];
 
     self.mergesortGroup = dispatch_group_create();
     dispatch_group_async(self.mergesortGroup, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{

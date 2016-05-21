@@ -12,7 +12,8 @@
 @property(nonatomic,strong) NSMutableArray<NSNumber*>* sortedArray;
 @property(nonatomic,assign) BOOL isSorted;
 
--(instancetype)init:(NSMutableArray<NSNumber*>*)array;
+-(instancetype)initWithSize:(NSUInteger)size;
+-(instancetype)initWithArray:(NSMutableArray<NSNumber*>*)array;
 -(void) sort;
 -(void) printSorted;
 @end

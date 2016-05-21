@@ -8,10 +8,28 @@
 
 #import "Sort.h"
 #import "NSMutableArray+Additions.h"
+#import "Utils.h"
 @implementation Sort
--(instancetype)init:(NSMutableArray<NSNumber*>*)array {
+-(instancetype)initWithSize:(NSUInteger)size {
     
     if(self = [super init]) {
+        
+        NSMutableArray<NSNumber*>* usArray =[[NSMutableArray alloc] init];
+        [Utils fillUsArray:usArray withSize:size];
+        
+        _sortedArray = usArray;
+        _isSorted = false;
+        return self;
+    }
+    
+    return nil;
+    
+}
+
+-(instancetype)initWithArray:(NSMutableArray<NSNumber *> *)array{
+    
+    if(self = [super init]) {
+        
         _sortedArray = array;
         _isSorted = false;
         return self;

@@ -11,11 +11,11 @@
 @implementation NSMutableArray (Additions)
 -(void)print {
     
-    NSLog(@"----------- PRINTING ARRAY -----------");
+    NSLog(@"--- PRINTING ARRAY ---");
     for (NSNumber * number in self) {
         NSLog(@"%lu\n",(unsigned long)number.unsignedIntegerValue);
     }
-    NSLog(@"----------- PRINTED  ARRAY -----------");
+    NSLog(@"--- PRINTED  ARRAY ---");
 }
 
 -(NSArray<NSNumber*>*)minmax{
